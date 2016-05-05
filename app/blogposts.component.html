@@ -1,0 +1,20 @@
+<div>
+  
+  <div class="blogposts">
+    <div class="well" *ngFor="#blogpost of blogposts" >
+      <button class='btn btn-default' [class.selected]="blogpost === selectedBlogPost" 
+      (click)="onSelect(blogpost)">  <i class='glyphicon glyphicon-pencil'></i></button>
+     
+      
+      <h2>{{blogpost.title}}</h2>
+      <p class="">{{blogpost.post}}</p> {{blogpost.name}}
+      
+      <div class="username">{{blogpost.fname}} {{blogpost.lname}}</div>
+      <div class="date">{{blogpost.date}}</div>
+    </div>
+    </div>
+    <div *ngIf="selectedBlogPost">
+    <h2>{{selectedBlogPost.fname | uppercase}} is my hero</h2>
+    <button (click)="gotoDetail()">View Details</button>
+  </div>
+</div>
