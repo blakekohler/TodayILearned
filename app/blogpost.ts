@@ -1,5 +1,5 @@
 export class BlogPost {
-  id: string;
+  id: number;
   index: number;
   guid: string;
   isActive: boolean;

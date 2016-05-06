@@ -2,7 +2,7 @@ import { BlogPost } from './blogpost';
 
 export var BLOGPOSTS: BlogPost[] = [
   {
-    "id": "572a69124e71e325c90513a2",
+    "id": 1,
     "index": 0,
     "guid": "5e327538-0c33-4133-9a7d-8a3d24d3a964",
     "isActive": true,
@@ -23,7 +23,7 @@ export var BLOGPOSTS: BlogPost[] = [
     ]
   },
   {
-    "id": "572a6912da60a1340dc8fa09",
+    "id": 2,
     "index": 1,
     "guid": "ddb089a7-875f-4652-a9c3-29f6d2908ac8",
     "isActive": true,
@@ -44,7 +44,7 @@ export var BLOGPOSTS: BlogPost[] = [
     ]
   },
   {
-    "id": "572a6912bfe5ffd59447c229",
+    "id": 3,
     "index": 2,
     "guid": "b288e93f-0891-4922-a0ba-fea4a00ecc0d",
     "isActive": true,
@@ -65,7 +65,7 @@ export var BLOGPOSTS: BlogPost[] = [
     ]
   },
   {
-    "id": "572a6912f5c142d637da23d1",
+    "id": 4,
     "index": 3,
     "guid": "37f34d0b-31e1-4413-8c46-5b824d0a69ec",
     "isActive": false,
@@ -86,7 +86,7 @@ export var BLOGPOSTS: BlogPost[] = [
     ]
   },
   {
-    "id": "572a69125358e86326d6d98d",
+    "id": 5,
     "index": 4,
     "guid": "a4e33499-9f7f-4a38-a9cb-607ba7e13c1a",
     "isActive": false,
@@ -107,7 +107,7 @@ export var BLOGPOSTS: BlogPost[] = [
     ]
   },
   {
-    "id": "572a69125907e771be40f5db",
+    "id": 6,
     "index": 5,
     "guid": "5cd5bc02-7e49-4560-b55c-b04b467c7601",
     "isActive": false,
@@ -128,7 +128,7 @@ export var BLOGPOSTS: BlogPost[] = [
     ]
   },
   {
-    "id": "572a69122bfae634d1ab0b1e",
+    "id": 7,
     "index": 6,
     "guid": "d828bc10-ba8b-475c-a719-c064d8efb549",
     "isActive": false,
@@ -149,7 +149,7 @@ export var BLOGPOSTS: BlogPost[] = [
     ]
   },
   {
-    "id": "572a6912b6499f9e9656da39",
+    "id": 8,
     "index": 7,
     "guid": "23ffac44-365d-4443-b139-919edfbf2b2c",
     "isActive": false,
@@ -170,7 +170,7 @@ export var BLOGPOSTS: BlogPost[] = [
     ]
   },
   {
-    "id": "572a6912ace986c99a0fb484",
+    "id": 9,
     "index": 8,
     "guid": "590fd6fe-2016-4ae8-9ac9-19647d40c86b",
     "isActive": false,
@@ -191,7 +191,7 @@ export var BLOGPOSTS: BlogPost[] = [
     ]
   },
   {
-    "id": "572a6912332224207e153963",
+    "id": 10,
     "index": 9,
     "guid": "e8fee2af-64f4-4ee5-a37a-4d3de6380fea",
     "isActive": true,

@@ -1,5 +1,6 @@
-import { Component, OnInit } from 'angular2/core';
+import { Component, OnInit, provide, ElementRef, Injector, Renderer} from 'angular2/core';
 import { Router } from 'angular2/router';
+
 
 import { BlogPost } from './blogpost';
 //import { HeroDetailComponent } from './hero-detail.component';
@@ -17,8 +18,9 @@ export class BlogPostsComponent implements OnInit {
 
   constructor(
     private _router: Router,
-    private _blogpostService: BlogPostService) { }
-
+    private _blogpostService: BlogPostService,
+    private elementRef: ElementRef,
+                private injector: Injector, private _renderer: Renderer) {}
   getBlogPosts() {
     this._blogpostService.getBlogPosts().then(blogposts => this.blogposts = blogposts);
   }
@@ -29,7 +31,7 @@ export class BlogPostsComponent implements OnInit {
 
   onSelect(blogpost: BlogPost) { this.selectedBlogPost = blogpost; }
 
-  gotoDetail() {
-    this._router.navigate(['BlogPostDetail', { id: this.selectedBlogPost.id }]);
+  gotoDetail(id : number) {
+    this._router.navigate(['EditBlog', { id }]);
   }
 }

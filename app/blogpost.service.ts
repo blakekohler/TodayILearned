@@ -15,9 +15,16 @@ export class BlogPostService {
     );
   }
 
-  getBlogPost(id: string) {
+  getBlogPost(id: number) {
     return Promise.resolve(BLOGPOSTS).then(
-      BlogPost => BlogPost.filter(BlogPost => BlogPost.id === id)[0]
+          blogposts => blogposts.filter(blogpost => blogpost.id === id)[0]
     );
   }
+  
+ //   getHero(id: number) {
+  //  return Promise.resolve(HEROES).then(
+  //    heroes => heroes.filter(hero => hero.id === id)[0]
+  //  );
+  // }
 }
+
