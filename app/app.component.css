@@ -15,6 +15,7 @@ h2 {
   padding-top: 0;
 }
 .appholder { margin: 2em;  }
+.blogholder { margin-top: 180px;  }
 .poweredby{
  font-size: small;
     text-align: center;
@@ -28,4 +29,8 @@ img{
 
 body{
   background: #d5e9f5;
+}
+.fixedheader{
+  position: fixed;
+  width: 95%;
 }

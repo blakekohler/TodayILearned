@@ -1,15 +1,34 @@
-<div>
-    <div class="blogposts">
-    <div class="well" *ngFor="#blogpost of blogposts" >
-      <button class='btn ' [class.selected]="blogpost === selectedBlogPost" 
-      (click)="gotoDetail(blogpost.id)">  <i class='glyphicon glyphicon-pencil'></i></button>
+<div class="row">
+  <div class="col-lg-1">
+    </div>
+    
+    <div class="blogposts col-lg-10">
+    <div class="well postsection" *ngFor="#blogpost of blogposts" >
+      <button class='btn editbutton' [class.selected]="blogpost === selectedBlogPost" 
+      (click)="gotoDetail(blogpost.id)"><h5>Edit</h5></button>
        
       
       <h2>{{blogpost.title}}</h2>
-      <p class="">{{blogpost.post}}</p> {{blogpost.name}}
+      <p class="" [innerHTML]="blogpost.post"></p> 
       
       <div class="username">{{blogpost.fname}} {{blogpost.lname}}</div>
-      <div class="date">{{blogpost.date}}</div>
+      <!-- <div class="date">{{blogpost.date | date:'medium' }}</div> -->
+       <div class="date">{{blogpost.date}}</div>
+      
+      <div class="row mar-top-lg">
+        <div class="col-lg-3 nopad"><a class="tagLink">React</a></div>
+        <div class="col-lg-3 nopad"><a class="rawLink">View Raw</a></div>
+        <div class="col-lg-3 nopad"><a class="permaLink">PermaLink</a></div>
+        <div class="col-lg-3 nopad"><a class="heartLink"><i class="fa fa-heart"></i> 1</a></div>
+      </div>
+      
     </div>
+    
+    <div class="col-lg-1">
+      </div>
     </div>
+</div>
+
+<div>
+  <i class="fa fa-plus addpost"></i>
 </div>

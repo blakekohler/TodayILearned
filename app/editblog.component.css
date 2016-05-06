@@ -5,8 +5,15 @@ textarea{
 .well{
     margin-right: 50px;
     margin-left: 50px;
+    border-radius: 0;
 }
 
-.mar-top-lg{
-    margin-top: 15px;
+.editholder{
+    margin-top: 180px;
 }
+
+.buttonholder{
+    float: right;
+}
+
+

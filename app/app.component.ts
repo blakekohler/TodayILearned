@@ -11,12 +11,12 @@ import { BlogPostService } from './blogpost.service';
   selector: 'my-app',
   template: `<div class="appholder">
   <a href="/blogposts">
-  <div class='row'>
+  <div class='row fixedheader'>
       <h1 class='col-lg-11'>{{title}}</h1> <div class='col-lg-1'> <div class='poweredby'>Powered By</div> <img class='angularimg' src='https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/10575/large/1455562305/angular-2-2.png'></div>
   </div>
   </a>
     <div class='row'>
-    <router-outlet class='col-lg-12'></router-outlet>
+    <router-outlet class='col-lg-12 blogholder'></router-outlet>
     </div>
         </div>
   `,

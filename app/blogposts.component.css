@@ -4,3 +4,101 @@
 .date{
     text-align: right;
 }
+.postsection {
+    background: rgba(255,255,255);
+ border-radius: 0px;   
+}
+
+.editbutton{
+    float: right;
+    background: rgba(255,255,255,0.0);
+}
+
+.addpost{
+        font-size: 4em;
+    color: rgba(255, 255, 255, 0.4);
+    position: fixed;
+    bottom: 10px;
+    font-weight: 100;
+}
+.tagLink{
+    display: block;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-transition: padding-left 0.1s;
+    transition: padding-left 0.1s;
+    border-top: 0.2rem solid #92c4d1;
+    text-align: center;
+    line-height: 2rem;
+    background: transparent;
+    -webkit-transition: background 0.1s;
+    transition: background 0.1s;
+}
+
+.rawLink{
+    display: block;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-transition: padding-left 0.1s;
+    transition: padding-left 0.1s;
+    border-top: 0.2rem solid #92c4d1;
+    text-align: center;
+    line-height: 2rem;
+    background: transparent;
+    -webkit-transition: background 0.1s;
+    transition: background 0.1s;
+    border-color: #33d6ea;
+    color: #33d6ea;
+}
+.permaLink{
+    display: block;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-transition: padding-left 0.1s;
+    transition: padding-left 0.1s;
+    border-top: 0.2rem solid #92c4d1;
+    text-align: center;
+    line-height: 2rem;
+    background: transparent;
+    -webkit-transition: background 0.1s;
+    transition: background 0.1s;
+    border-color: #67acdb;
+    color: #67acdb;
+}
+.heartLink{
+        display: block;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+    -webkit-transition: padding-left 0.1s;
+    transition: padding-left 0.1s;
+    border-top: 0.2rem solid #92c4d1;
+    text-align: center;
+    line-height: 2rem;
+    background: transparent;
+    -webkit-transition: background 0.1s;
+    transition: background 0.1s;
+    border-color: #ee7567;
+    color: #ee7567;
+}
+
+
+.nopad{
+    padding: 3px;
+}
+
+
+.mar-top-lg{
+    margin-top: 15px;
+}
