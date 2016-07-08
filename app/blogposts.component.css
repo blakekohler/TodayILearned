@@ -21,6 +21,7 @@
     bottom: 10px;
     font-weight: 100;
 }
+
 .tagLink{
     display: block;
     padding: 1rem 2rem;
@@ -102,3 +103,6 @@
 .mar-top-lg{
     margin-top: 15px;
 }
+
+
+img {border: 30px solid deeppink}

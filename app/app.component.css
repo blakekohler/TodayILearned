@@ -34,3 +34,6 @@ body{
   position: fixed;
   width: 95%;
 }
+
+.angularimg{ border: 1px solid blue}
+img{ border: 1px solid blue;}
