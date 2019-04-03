@@ -1,7 +1,1 @@
-# TodayILearned
-Angular 2 and Firebase Version of Today I Learned (for the originial version of TIL checkout: https://til.hashrocket.com/).
-
-##Steps to do stuff: 
-  1. npm i
-  2. npm start
-  3. go for it.
+I need to revamp this - it was my first attempt at Angular 2.  Now that I know what I'm doing I want to come back and get this to work eventually. 
